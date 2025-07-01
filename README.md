@@ -1,6 +1,7 @@
 # chrome-adblocker
 AdBlocker for chrome. Block ads and trackers.
 
+https://krypcide.github.io/chrome-adblocker/
 ### Installing
 - Download zip file of the repo
 - Extract it
