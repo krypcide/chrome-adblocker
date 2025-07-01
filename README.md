@@ -1,2 +1,12 @@
 # chrome-adblocker
 AdBlocker for chrome. Block ads and trackers.
+
+### Installing
+- Download zip file of the repo
+- Extract it
+- Go to <code>chrome://extensions</code>
+- Enable developper mode
+- Click "Load unpacked extension"
+- select the "adblocker folder"
+- Enjoy !
+
