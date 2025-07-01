@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+  <head>
+    <script src="popup.js"></script>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #fff;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        text-align: center;
+        width: 300px;
+        height: 350px;
+        font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace;
+        /* Default text alignment for smaller screens */
+      }
+      h1 {
+        vertical-align: top;
+      }
+      h2 {
+         vertical-align: middle;
+      }
+      .container {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        width: 100%;
+        /* Adjust width for smaller screens */
+        height: 90%;
+        /* Maximum width for larger screens */
+        margin: 20px;
+        /* Add margin for spacing */
+      }
+
+      .button {
+        color: white;
+        background-color: green;
+        font-weight: 500;
+        border-radius: 0.5rem;
+        font-size: 1rem;
+        line-height: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 0.7rem;
+        padding-bottom: 0.7rem;
+        cursor: pointer;
+        text-align: center;
+        margin-right: 0.5rem;
+        display: inline-flex;
+        align-items: center;
+        border: none;
+        box-shadow: 0px 0px 1px 1px #0000001a;
+        animation: pulse-animation 2s infinite;
+      }
+      .green{
+  background: green;
+}
+
+.orange{
+    background: red;
+}
+
+.blue{
+  background: #3652D9;
+  margin: auto;
+/*  vertical-align: bottom;*/
+}
+
+.rose{
+  background:#FF66CC;
+}
+
+.center {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+}
+
+.circle {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 1px 1px #0000001a;
+}
+
+.pulse {
+  animation: pulse-animation 2s infinite;
+}
+
+@keyframes pulse-animation {
+  0% {
+    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+  }
+  100% {
+    box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+  }
+}
+
+
+.master{
+  color:black;
+  float:right;
+}
+
+@media (max-width:900px){
+  .master{
+    display:none
+  }
+}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>AdBlocker</h1>
+      <pre>
+      
+      </pre>
+      <h2>Block annoying ads without being tracked !</h2>
+      <pre>
+      </pre>
+      <h2>Ads/trackers blocked on this page : <span id="adCount">0</span></h2>
+
+      <pre>
+      
+      </pre>
+      <input type="button" class="button" id="toggle_button" value="Enabled"  />
+      <br>
+      
+    </div>
+  </body>
+</html>
