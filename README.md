@@ -8,6 +8,6 @@ https://krypcide.github.io/chrome-adblocker/
 - Go to <code>chrome://extensions</code>
 - Enable developper mode
 - Click "Load unpacked extension"
-- select the "adblocker folder"
+- Select the "adblocker folder"
 - Enjoy !
 
